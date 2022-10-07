@@ -8,8 +8,8 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom"
 
 const App = () => {
   return (
-    <BrowserRouter basename="/react-candle-shop">
-      <Routes>
+    <Router>
+      <Routes basename="/react-candle-shop">
         <Route path="/" element={<Home />} />
         <Route path="/productlist" element={<ProductList />} />
         <Route path="/product" element={<Product />} />
@@ -17,7 +17,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   )
 };
 

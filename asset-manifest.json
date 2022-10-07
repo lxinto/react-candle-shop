@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/react-candle-shop/static/js/main.19928045.chunk.js",
-    "main.js.map": "/react-candle-shop/static/js/main.19928045.chunk.js.map",
+    "main.js": "/react-candle-shop/static/js/main.955364bb.chunk.js",
+    "main.js.map": "/react-candle-shop/static/js/main.955364bb.chunk.js.map",
     "runtime-main.js": "/react-candle-shop/static/js/runtime-main.3d971148.js",
     "runtime-main.js.map": "/react-candle-shop/static/js/runtime-main.3d971148.js.map",
-    "static/js/2.e85c7d8f.chunk.js": "/react-candle-shop/static/js/2.e85c7d8f.chunk.js",
-    "static/js/2.e85c7d8f.chunk.js.map": "/react-candle-shop/static/js/2.e85c7d8f.chunk.js.map",
+    "static/js/2.d5e3d9c4.chunk.js": "/react-candle-shop/static/js/2.d5e3d9c4.chunk.js",
+    "static/js/2.d5e3d9c4.chunk.js.map": "/react-candle-shop/static/js/2.d5e3d9c4.chunk.js.map",
     "index.html": "/react-candle-shop/index.html",
-    "static/js/2.e85c7d8f.chunk.js.LICENSE.txt": "/react-candle-shop/static/js/2.e85c7d8f.chunk.js.LICENSE.txt"
+    "static/js/2.d5e3d9c4.chunk.js.LICENSE.txt": "/react-candle-shop/static/js/2.d5e3d9c4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3d971148.js",
-    "static/js/2.e85c7d8f.chunk.js",
-    "static/js/main.19928045.chunk.js"
+    "static/js/2.d5e3d9c4.chunk.js",
+    "static/js/main.955364bb.chunk.js"
   ]
 }

@@ -10,7 +10,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="http://lxinto.github.io/react-candle-shop" element={<Home />} />
         <Route path="/productlist" element={<ProductList />} />
         <Route path="/product" element={<Product />} />
         <Route path="/cart" element={<Cart />} />

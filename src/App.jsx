@@ -4,12 +4,12 @@ import Product from "./pages/Product"
 import Cart from "./pages/Cart.jsx";
 import Register from "./pages/Register.jsx"
 import Login from "./pages/Login.jsx";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom"
+import { Route, HashRouter as Router, Routes } from "react-router-dom"
 
 const App = () => {
   return (
     <Router>
-      <Routes basename="/react-candle-shop">
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/productlist" element={<ProductList />} />
         <Route path="/product" element={<Product />} />

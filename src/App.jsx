@@ -8,16 +8,16 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom"
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter basename="/react-candle-shop">
       <Routes>
-        <Route path="http://lxinto.github.io/react-candle-shop" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/productlist" element={<ProductList />} />
         <Route path="/product" element={<Product />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   )
 };
 
